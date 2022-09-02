@@ -9,7 +9,7 @@ public class Sudoku {
 	private static int partitionSize = 0;
 	
 	public static void main(String[] args){
-		String filename = args[0];
+		String filename = "sudoku9Easy.txt";//args[0];
 		File inputFile = new File(filename);
 		Scanner input = null;
 		int[][] vals = null;
